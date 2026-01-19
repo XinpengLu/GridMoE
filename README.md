@@ -27,7 +27,7 @@ This repository provides the official implementation for the paper:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/GridMoE.git
+   git clone https://anonymous.4open.science/r/GridMoE/
    cd GridMoE
    ```
 
