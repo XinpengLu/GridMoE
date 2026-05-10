@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="figures/GridMoE_logo.png" alt="GridMoE logo" width="32%" />
+
 # GridMoE: Learning Exogenous-Aware Mixture-of-Experts Policy for Power Grid Optimization under Dynamic Topologies and Scenarios
 
 <p>
@@ -20,8 +22,6 @@
   <a href="#citation">Citation</a>
 </p>
 
-<img src="image.png" alt="GridMoE overview" width="88%" />
-
 </div>
 
 > [!NOTE]
@@ -31,6 +31,10 @@
 ## ✨ Overview
 
 GridMoE is an open-source reinforcement learning framework for power grid optimization under changing network topologies and uncertain operating conditions. Instead of training a separate controller for each operating regime, GridMoE learns a unified policy that can route computation across experts according to the current state and exogenous signals.
+
+<p align="center">
+  <img src="figures/framework.png" alt="GridMoE framework" width="88%" />
+</p>
 
 This repository includes:
 
@@ -170,7 +174,9 @@ GridMoE/
 |- sac_single.py                     # Single-task SAC baseline entry
 |- utils.py                          # Utility helpers
 |- environment.yaml                  # Reproducible software environment
-|- image.png                         # Method overview figure
+|- figures/
+|  |- GridMoE_logo.png               # Project logo
+|  `- framework.png                  # Method overview figure
 `- README.md
 ```
 
